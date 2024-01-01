@@ -1,0 +1,12 @@
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\bin\Debug\net8.0\FasterThanYou.Web.Infrastructure.deps.json
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\bin\Debug\net8.0\FasterThanYou.Web.Infrastructure.dll
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\bin\Debug\net8.0\FasterThanYou.Web.Infrastructure.pdb
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\FasterThanYou.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\FasterThanYou.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\FasterThanYou.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\FasterThanYou.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\FasterThanYou.Web.Infrastructure.sourcelink.json
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\FasterThanYou.Web.Infrastructure.dll
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\refint\FasterThanYou.Web.Infrastructure.dll
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\FasterThanYou.Web.Infrastructure.pdb
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Web.Infrastructure\obj\Debug\net8.0\ref\FasterThanYou.Web.Infrastructure.dll

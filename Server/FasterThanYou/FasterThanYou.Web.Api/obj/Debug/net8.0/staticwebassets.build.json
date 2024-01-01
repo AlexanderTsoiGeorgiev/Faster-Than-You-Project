@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NcAF1s+ALCfAJqx6/PKNFjqAFckt6yv9U1chJwEd17k=",
+  "Source": "FasterThanYou.Web.Api",
+  "BasePath": "_content/FasterThanYou.Web.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

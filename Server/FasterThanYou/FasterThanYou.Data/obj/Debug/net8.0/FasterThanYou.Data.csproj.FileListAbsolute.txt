@@ -1,0 +1,15 @@
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\bin\Debug\net8.0\FasterThanYou.Data.deps.json
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\bin\Debug\net8.0\FasterThanYou.Data.runtimeconfig.json
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\bin\Debug\net8.0\FasterThanYou.Data.dll
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\bin\Debug\net8.0\FasterThanYou.Data.pdb
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.csproj.AssemblyReference.cache
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.sourcelink.json
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.dll
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\refint\FasterThanYou.Data.dll
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.pdb
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\FasterThanYou.Data.genruntimeconfig.cache
+C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data\obj\Debug\net8.0\ref\FasterThanYou.Data.dll
