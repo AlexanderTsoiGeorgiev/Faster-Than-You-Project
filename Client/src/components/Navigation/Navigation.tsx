@@ -5,7 +5,7 @@ import MyNavMenu from "../MyComponents/MyNavMenu";
 
 export default function Navigation() {
     return (
-        <nav className="flex justify-between bg-primary text-background p-4">
+        <div className="flex justify-between bg-primary text-background p-4">
             <h1 className="font-extrabold text-4xl">Faster Than You</h1>
             {/* <div className="bg-slate-600 ">
                 <img src={Logo} alt="FTY_logo" />
@@ -20,6 +20,6 @@ export default function Navigation() {
             <section className="flex items-center justify-center">
                 <p>Log In</p>
             </section>
-        </nav>
+        </div>
     )
 }

@@ -9,6 +9,9 @@ import './index.css'
 import Layout from './components/Layout/Layout.tsx';
 import NotFound from './components/Error/NotFound.tsx';
 
+//pages
+import Home from './pages/Home.tsx';
+
 const router = createBrowserRouter([
   {
     path: "/", 
@@ -34,7 +37,7 @@ const router = createBrowserRouter([
       },
       {
         path: "home",
-        element: <h1>Home </h1>
+        element: <Home />
       },
       {
         path: "about",
