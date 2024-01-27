@@ -26,7 +26,14 @@ export default function MyNavMenu() {
                 <NavigationMenuItem className="!bg-primary">
                     <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">Drivers</NavigationMenuTrigger>
                         <NavigationMenuContent>
-                            <NavigationMenuLink>Link</NavigationMenuLink>
+                            <ul className=" w-[400px] grid grid-cols-4 gap-4 list-none">
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                            </ul>
                         </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenuList>
@@ -37,7 +44,14 @@ export default function MyNavMenu() {
                 <NavigationMenuItem className="!bg-primary">
                     <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">Teams</NavigationMenuTrigger>
                         <NavigationMenuContent>
-                            <NavigationMenuLink>Link</NavigationMenuLink>
+                        <ul className=" w-[400px] grid grid-cols-4 gap-4 list-none">
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                            </ul>
                         </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenuList>
