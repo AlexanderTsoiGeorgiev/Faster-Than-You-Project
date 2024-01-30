@@ -1,13 +1,16 @@
+import Card from "../Card/Card";
+import { Button } from "../ui/button";
+
 export default function Hero() {
     return (
         
         <>
-            <section className="flex flex-wrap m-auto mt-8 justify-start gap-6">
-                <div className="flex flex-col max-w-[50%] min-h-full flex-1 ">
-                    <section className="flex flex-col sticky top-24 border-primary border-t-[10px] border-r-[10px] rounded-tr-[2em] pr-1">
+            <section className="flex flex-wrap m-auto my-8 justify-start gap-6 md:h-[900px] h-auto">
+                <div className="flex flex-col max-w-[50%] sm:max-w-full md:w-full min-h-full flex-1 ">
+                    <section className="flex flex-col sticky top-24 border-primary border-t-[10px] border-r-[10px] rounded-tr-[2em] pr-4">
                         
 
-                        <h1 className="font-bold text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ullam voluptate ipsum repellendus placeat! Voluptatibus consectetur voluptatum tempora exercitationem perspiciatis cum sint debitis, deserunt qui mollitia, commodi ipsam ut in.</h1>
+                        <h1 className="font-bold text-lg ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ullam voluptate ipsum repellendus placeat! Voluptatibus consectetur voluptatum tempora exercitationem perspiciatis cum sint debitis, deserunt qui mollitia, commodi ipsam ut in.</h1>
                         <div className="">
                             <img src="https://cdn-5.motorsport.com/images/mgl/YXRAzVo0/s1200/charles-leclerc-ferrari-sf-23.webp" alt="" />
                         </div>
@@ -16,11 +19,26 @@ export default function Hero() {
                         <div className="h-full border-primary border-r-[10px] z-50"></div>
                     </div>
                 </div>
-                <div className=" max-w-[50%]">
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae esse eos quas! Totam quod, alias pariatur in iure cum obcaecati similique nihil! Reiciendis praesentium odio beatae aperiam nostrum voluptate earum harum deserunt ad exercitationem ea obcaecati nesciunt rerum voluptatum libero, molestias voluptatem quos ullam autem debitis odit! Quidem laboriosam placeat fuga animi dolorem rem, soluta molestiae minus, at maiores itaque ullam adipisci recusandae incidunt, tempore iusto vero qui harum natus? Molestias officiis, ut aliquam assumenda blanditiis et molestiae quia dolore culpa at ratione suscipit commodi, dicta qui laboriosam possimus aperiam magnam omnis. Molestias et quam nostrum fuga ad tempore.</div>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae esse eos quas! Totam quod, alias pariatur in iure cum obcaecati similique nihil! Reiciendis praesentium odio beatae aperiam nostrum voluptate earum harum deserunt ad exercitationem ea obcaecati nesciunt rerum voluptatum libero, molestias voluptatem quos ullam autem debitis odit! Quidem laboriosam placeat fuga animi dolorem rem, soluta molestiae minus, at maiores itaque ullam adipisci recusandae incidunt, tempore iusto vero qui harum natus? Molestias officiis, ut aliquam assumenda blanditiis et molestiae quia dolore culpa at ratione suscipit commodi, dicta qui laboriosam possimus aperiam magnam omnis. Molestias et quam nostrum fuga ad tempore.</div>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae esse eos quas! Totam quod, alias pariatur in iure cum obcaecati similique nihil! Reiciendis praesentium odio beatae aperiam nostrum voluptate earum harum deserunt ad exercitationem ea obcaecati nesciunt rerum voluptatum libero, molestias voluptatem quos ullam autem debitis odit! Quidem laboriosam placeat fuga animi dolorem rem, soluta molestiae minus, at maiores itaque ullam adipisci recusandae incidunt, tempore iusto vero qui harum natus? Molestias officiis, ut aliquam assumenda blanditiis et molestiae quia dolore culpa at ratione suscipit commodi, dicta qui laboriosam possimus aperiam magnam omnis. Molestias et quam nostrum fuga ad tempore.</div>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae esse eos quas! Totam quod, alias pariatur in iure cum obcaecati similique nihil! Reiciendis praesentium odio beatae aperiam nostrum voluptate earum harum deserunt ad exercitationem ea obcaecati nesciunt rerum voluptatum libero, molestias voluptatem quos ullam autem debitis odit! Quidem laboriosam placeat fuga animi dolorem rem, soluta molestiae minus, at maiores itaque ullam adipisci recusandae incidunt, tempore iusto vero qui harum natus? Molestias officiis, ut aliquam assumenda blanditiis et molestiae quia dolore culpa at ratione suscipit commodi, dicta qui laboriosam possimus aperiam magnam omnis. Molestias et quam nostrum fuga ad tempore.</div>
+                <div className="flex flex-col gap-2 md:max-w-[50%] w-full">
+                    <div className="grid grid-cols-2 gap-y-8 gap-x-4 flex-grow">
+                    {/* <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quia, facilis ipsam sit molestiae perferendis dicta sed corporis quaerat voluptatibus impedit. Sapiente exercitationem reprehenderit impedit quae esse illum temporibus fugit sequi eum necessitatibus ipsa possimus ullam rerum perferendis atque, animi hic. Enim distinctio deleniti cupiditate illum odit tempora nihil accusantium.</div>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quia, facilis ipsam sit molestiae perferendis dicta sed corporis quaerat voluptatibus impedit. Sapiente exercitationem reprehenderit impedit quae esse illum temporibus fugit sequi eum necessitatibus ipsa possimus ullam rerum perferendis atque, animi hic. Enim distinctio deleniti cupiditate illum odit tempora nihil accusantium.</div>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quia, facilis ipsam sit molestiae perferendis dicta sed corporis quaerat voluptatibus impedit. Sapiente exercitationem reprehenderit impedit quae esse illum temporibus fugit sequi eum necessitatibus ipsa possimus ullam rerum perferendis atque, animi hic. Enim distinctio deleniti cupiditate illum odit tempora nihil accusantium.</div>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quia, facilis ipsam sit molestiae perferendis dicta sed corporis quaerat voluptatibus impedit. Sapiente exercitationem reprehenderit impedit quae esse illum temporibus fugit sequi eum necessitatibus ipsa possimus ullam rerum perferendis atque, animi hic. Enim distinctio deleniti cupiditate illum odit tempora nihil accusantium.</div>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quia, facilis ipsam sit molestiae perferendis dicta sed corporis quaerat voluptatibus impedit. Sapiente exercitationem reprehenderit impedit quae esse illum temporibus fugit sequi eum necessitatibus ipsa possimus ullam rerum perferendis atque, animi hic. Enim distinctio deleniti cupiditate illum odit tempora nihil accusantium.</div>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quia, facilis ipsam sit molestiae perferendis dicta sed corporis quaerat voluptatibus impedit. Sapiente exercitationem reprehenderit impedit quae esse illum temporibus fugit sequi eum necessitatibus ipsa possimus ullam rerum perferendis atque, animi hic. Enim distinctio deleniti cupiditate illum odit tempora nihil accusantium.</div>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quia, facilis ipsam sit molestiae perferendis dicta sed corporis quaerat voluptatibus impedit. Sapiente exercitationem reprehenderit impedit quae esse illum temporibus fugit sequi eum necessitatibus ipsa possimus ullam rerum perferendis atque, animi hic. Enim distinctio deleniti cupiditate illum odit tempora nihil accusantium.</div>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quia, facilis ipsam sit molestiae perferendis dicta sed corporis quaerat voluptatibus impedit. Sapiente exercitationem reprehenderit impedit quae esse illum temporibus fugit sequi eum necessitatibus ipsa possimus ullam rerum perferendis atque, animi hic. Enim distinctio deleniti cupiditate illum odit tempora nihil accusantium.</div> */}
+
+                    <Card></Card>
+                    <Card></Card>
+                    <Card></Card>
+                    <Card></Card>
+                    <Card></Card>
+                    <Card></Card>
+                    </div>
+                <Button className="w-1/3 mt-3"> BUTTON </Button>
+                    
                 </div>
             </section>
 
