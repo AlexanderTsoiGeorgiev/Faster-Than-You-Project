@@ -6,6 +6,12 @@ import {
     CarouselNext
  } from "@/components/ui/carousel";
 
+ import {
+     Bahrain,
+    } from "../../../assets/CountryFlags/CountryFlags";
+
+ import RaceCarouselItem  from "./RaceCarouselItem";
+
 export default function MyCarousel() {
   return (
     <Carousel className="w-10/12 m-auto py-8" 
@@ -32,7 +38,9 @@ export default function MyCarousel() {
                         </div>
                     </div>
             </CarouselItem>
-            <CarouselItem className="pl-0">3</CarouselItem>
+            <CarouselItem className="pl-0">
+                <RaceCarouselItem image={Bahrain} />
+            </CarouselItem>
         </CarouselContent>
         <CarouselNext /> 
         <CarouselPrevious />

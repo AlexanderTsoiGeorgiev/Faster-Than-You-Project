@@ -7,13 +7,13 @@ export default function Layout() {
     <>
       <div className="flex flex-col min-h-screen">
         <div className="bg-primary sticky top-0 z-50">
-            <nav className={`${style.pageWidth}`}>
+            <nav className={`${style.pageWidth} ${style.padeMargin}`}>
               <Navigation></Navigation>
             </nav>
         </div>
 
         <div className="bg-background flex-auto">
-          <main className={style.pageWidth}>
+          <main className={`${style.pageWidth} ${style.padeMargin}`}>
             <Outlet />
           </main>
         </div>
