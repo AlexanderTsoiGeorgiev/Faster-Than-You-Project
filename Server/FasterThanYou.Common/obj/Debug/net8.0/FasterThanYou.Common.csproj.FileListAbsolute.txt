@@ -10,3 +10,15 @@ C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Co
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Common\obj\Debug\net8.0\refint\FasterThanYou.Common.dll
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Common\obj\Debug\net8.0\FasterThanYou.Common.pdb
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Common\obj\Debug\net8.0\ref\FasterThanYou.Common.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\bin\Debug\net8.0\FasterThanYou.Common.deps.json
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\bin\Debug\net8.0\FasterThanYou.Common.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\bin\Debug\net8.0\FasterThanYou.Common.pdb
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\FasterThanYou.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\FasterThanYou.Common.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\FasterThanYou.Common.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\FasterThanYou.Common.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\FasterThanYou.Common.sourcelink.json
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\FasterThanYou.Common.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\refint\FasterThanYou.Common.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\FasterThanYou.Common.pdb
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Common\obj\Debug\net8.0\ref\FasterThanYou.Common.dll

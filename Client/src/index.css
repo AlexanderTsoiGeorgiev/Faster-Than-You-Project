@@ -88,6 +88,7 @@
       --input: 351 86% 20%;
       --ring: 263 44% 40%;
       --radius: 0.5rem;
+      --secondary-lighter-color: #fce5e7;
       --primary-color: #FFAF5F; /*an example check tailwind.config.js*/
     }
    

@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       colors: {
         "primary-color": "var(--primary-color)",  //defining primary color
+        "secondary-lighter-color": "var(--secondary-lighter-color)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

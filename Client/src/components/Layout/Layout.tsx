@@ -13,7 +13,7 @@ export default function Layout() {
         </div>
 
         <div className="bg-background flex-auto">
-          <main className={`${style.pageWidth} ${style.padeMargin}`}>
+          <main >
             <Outlet />
           </main>
         </div>

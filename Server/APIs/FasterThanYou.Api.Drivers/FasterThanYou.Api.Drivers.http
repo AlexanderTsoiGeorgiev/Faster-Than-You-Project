@@ -1,0 +1,6 @@
+@FasterThanYou.Api.Drivers_HostAddress = http://localhost:5140
+
+GET {{FasterThanYou.Api.Drivers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D0448B81-5EC7-4FEA-A19A-A9088978933E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{D0448B81-5EC7-4FEA-A19A-A9088978933E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{290894D0-FF62-40EE-B0C2-18BCA6FD5EA1}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Common", "FasterThanYou.Common\FasterThanYou.Common.csproj", "{1C836B97-B64C-4057-A76C-B03DBBF0E75D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Web.Infrastructure", "FasterThanYou.Web.Infrastructure\FasterThanYou.Web.Infrastructure.csproj", "{044A3A27-F5D6-4C3B-8174-F8B0A9B2A790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Api.Drivers", "APIs\FasterThanYou.Api.Drivers\FasterThanYou.Api.Drivers.csproj", "{8E501A28-80B5-46B2-B9E4-D27552A48AD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{044A3A27-F5D6-4C3B-8174-F8B0A9B2A790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{044A3A27-F5D6-4C3B-8174-F8B0A9B2A790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{044A3A27-F5D6-4C3B-8174-F8B0A9B2A790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E501A28-80B5-46B2-B9E4-D27552A48AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E501A28-80B5-46B2-B9E4-D27552A48AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E501A28-80B5-46B2-B9E4-D27552A48AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E501A28-80B5-46B2-B9E4-D27552A48AD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{DE9F84C1-3D12-4541-B127-8D73B2961A86} = {6E17E95A-B913-4130-AE9E-9AC0DE21345F}
 		{57B7918E-9495-4716-B963-23A648708F78} = {290894D0-FF62-40EE-B0C2-18BCA6FD5EA1}
 		{044A3A27-F5D6-4C3B-8174-F8B0A9B2A790} = {D0448B81-5EC7-4FEA-A19A-A9088978933E}
+		{8E501A28-80B5-46B2-B9E4-D27552A48AD0} = {D0448B81-5EC7-4FEA-A19A-A9088978933E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39436901-5240-422D-ABB3-F95689D82255}
