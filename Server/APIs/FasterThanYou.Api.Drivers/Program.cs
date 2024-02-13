@@ -1,53 +1,60 @@
-
-namespace FasterThanYou.Api.Drivers;
-
-public class Program
+namespace FasterThanYou.Api.Drivers
 {
-    public static void Main(string[] args)
+    using FasterThanYou.Api.Drivers.Data;
+    using Microsoft.EntityFrameworkCore;
+
+    public class Program
     {
-        var builder = WebApplication.CreateBuilder(args);
-
-        // Add services to the container.
-
-        builder.Services.AddControllers();
-
-        builder.Services.AddHttpClient();
-
-        //builder.Services.AddHttpClient();
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
-
-        builder.Services.AddCors(options =>
+        public static void Main(string[] args)
         {
-            options.AddPolicy("AllowAll", builder =>
-                builder.AllowAnyOrigin()
-                       .AllowAnyMethod()
-                       .AllowAnyHeader());
-        });
+            var builder = WebApplication.CreateBuilder(args);
 
-        var app = builder.Build();
+            // Add services to the container.
 
-        // Configure the HTTP request pipeline.
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI();
-            app.UseCors("AllowAll");
-            app.Use((context, next) =>
+            //change to developer secret
+            string? connectionString = builder.Configuration.GetConnectionString("DefaultConnection" ?? throw new InvalidOperationException());
+            builder.Services.AddDbContext<DriversDbContext>(options => options.UseSqlServer(connectionString));
+
+            builder.Services.AddControllers();
+
+            builder.Services.AddHttpClient();
+
+            //builder.Services.AddHttpClient();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
+            builder.Services.AddCors(options =>
             {
-                context.Response.Headers["Access-Control-Allow-Origin"] = "*";
-                return next.Invoke();
+                options.AddPolicy("AllowAll", builder =>
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader());
             });
+
+            var app = builder.Build();
+
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+                app.UseCors("AllowAll");
+                app.Use((context, next) =>
+                {
+                    context.Response.Headers["Access-Control-Allow-Origin"] = "*";
+                    return next.Invoke();
+                });
+            }
+
+            app.UseHttpsRedirection();
+
+            app.UseAuthorization();
+
+
+            app.MapControllers();
+
+            app.Run();
         }
-
-        app.UseHttpsRedirection();
-
-        app.UseAuthorization();
-
-
-        app.MapControllers();
-
-        app.Run();
     }
 }

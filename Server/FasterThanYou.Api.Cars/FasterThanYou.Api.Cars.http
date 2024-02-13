@@ -1,0 +1,6 @@
+@FasterThanYou.Api.Cars_HostAddress = http://localhost:5085
+
+GET {{FasterThanYou.Api.Cars_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -13,11 +13,11 @@ export default function MyNavMenu() {
     <>
         <NavigationMenu>
              <NavigationMenuList> 
-                <NavigationMenuItem>
+                <NavigationMenuLink>
                         <Link to="home" className="px-4 py-2">
                             Home
                         </Link>
-                </NavigationMenuItem>
+                </NavigationMenuLink>
             </NavigationMenuList> 
         </NavigationMenu>
 
@@ -26,7 +26,7 @@ export default function MyNavMenu() {
                 <NavigationMenuItem className="!bg-primary">
                     <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">Drivers</NavigationMenuTrigger>
                         <NavigationMenuContent>
-                            <ul className=" w-[400px] grid grid-cols-4 gap-4 list-none">
+                            <ul className=" w-[800px] grid grid-cols-4 gap-4 list-none">
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
@@ -36,15 +36,10 @@ export default function MyNavMenu() {
                             </ul>
                         </NavigationMenuContent>
                 </NavigationMenuItem>
-            </NavigationMenuList>
-        </NavigationMenu>
-
-        <NavigationMenu>
-            <NavigationMenuList>
                 <NavigationMenuItem className="!bg-primary">
                     <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">Teams</NavigationMenuTrigger>
                         <NavigationMenuContent>
-                        <ul className=" w-[400px] grid grid-cols-4 gap-4 list-none">
+                        <ul className="w-[400px] grid grid-cols-4 gap-4 list-none">
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
@@ -54,38 +49,27 @@ export default function MyNavMenu() {
                             </ul>
                         </NavigationMenuContent>
                 </NavigationMenuItem>
-            </NavigationMenuList>
-        </NavigationMenu>
-
-        <NavigationMenu>
-            <NavigationMenuList>
                 <NavigationMenuItem className="!bg-primary">
                     <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">Tracks</NavigationMenuTrigger>
                         <NavigationMenuContent>
-                            <NavigationMenuLink>Link</NavigationMenuLink>
+                            <ul className="w-[400px] grid grid-cols-4 gap-4 list-none">
+                                <li>
+                                    <NavigationMenuLink>Link</NavigationMenuLink>
+                                </li>
+                            </ul>
                         </NavigationMenuContent>
                 </NavigationMenuItem>
-            </NavigationMenuList>
-        </NavigationMenu>
-
-        <NavigationMenu>
-             <NavigationMenuList> 
                 <NavigationMenuItem>
                         <Link to="shop" className="px-4 py-2">
                             Shop
                         </Link>
                 </NavigationMenuItem>
-            </NavigationMenuList> 
-        </NavigationMenu>
-
-        <NavigationMenu>
-             <NavigationMenuList> 
                 <NavigationMenuItem>
                         <Link to="tickets" className="px-4 py-2">
                             Tickets
                         </Link>
                 </NavigationMenuItem>
-            </NavigationMenuList> 
+            </NavigationMenuList>
         </NavigationMenu>
     </>
   )

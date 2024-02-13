@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\APIs\\FasterThanYou.Api.Drivers\\FasterThanYou.Api.Drivers.csproj": {}
+    "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\FasterThanYou.Api.Cars\\FasterThanYou.Api.Cars.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\APIs\\FasterThanYou.Api.Drivers\\FasterThanYou.Api.Drivers.csproj": {
+    "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\FasterThanYou.Api.Cars\\FasterThanYou.Api.Cars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\APIs\\FasterThanYou.Api.Drivers\\FasterThanYou.Api.Drivers.csproj",
-        "projectName": "FasterThanYou.Api.Drivers",
-        "projectPath": "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\APIs\\FasterThanYou.Api.Drivers\\FasterThanYou.Api.Drivers.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\FasterThanYou.Api.Cars\\FasterThanYou.Api.Cars.csproj",
+        "projectName": "FasterThanYou.Api.Cars",
+        "projectPath": "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\FasterThanYou.Api.Cars\\FasterThanYou.Api.Cars.csproj",
         "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\APIs\\FasterThanYou.Api.Drivers\\obj\\",
+        "outputPath": "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\FasterThanYou.Api.Cars\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,22 +45,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
