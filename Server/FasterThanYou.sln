@@ -9,23 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{29
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6E17E95A-B913-4130-AE9E-9AC0DE21345F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Data", "FasterThanYou.Data\FasterThanYou.Data.csproj", "{0BD4C654-169D-44A0-93BC-2F442C2A9512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Data", "FasterThanYou.Data\FasterThanYou.Data.csproj", "{0BD4C654-169D-44A0-93BC-2F442C2A9512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Web.Api", "FasterThanYou.Web.Api\FasterThanYou.Web.Api.csproj", "{D1C539B1-380F-4A12-8F72-1083FE2BEE54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Web.Api", "FasterThanYou.Web.Api\FasterThanYou.Web.Api.csproj", "{D1C539B1-380F-4A12-8F72-1083FE2BEE54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Data.Common", "FasterThanYou.Data.Common\FasterThanYou.Data.Common.csproj", "{138BD5A4-AA21-4E1C-8DD3-9F7D47ACBBE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Data.Common", "FasterThanYou.Data.Common\FasterThanYou.Data.Common.csproj", "{138BD5A4-AA21-4E1C-8DD3-9F7D47ACBBE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Data.Configuration", "FasterThanYou.Data.Configuration\FasterThanYou.Data.Configuration.csproj", "{A82BF964-DB7A-4B00-8E49-CA3C091897D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Data.Configuration", "FasterThanYou.Data.Configuration\FasterThanYou.Data.Configuration.csproj", "{A82BF964-DB7A-4B00-8E49-CA3C091897D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Data.Models", "FasterThanYou.Data.Models\FasterThanYou.Data.Models.csproj", "{DE9F84C1-3D12-4541-B127-8D73B2961A86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Data.Models", "FasterThanYou.Data.Models\FasterThanYou.Data.Models.csproj", "{DE9F84C1-3D12-4541-B127-8D73B2961A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Services", "FasterThanYou.Services\FasterThanYou.Services.csproj", "{57B7918E-9495-4716-B963-23A648708F78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Services", "FasterThanYou.Services\FasterThanYou.Services.csproj", "{57B7918E-9495-4716-B963-23A648708F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Common", "FasterThanYou.Common\FasterThanYou.Common.csproj", "{1C836B97-B64C-4057-A76C-B03DBBF0E75D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Common", "FasterThanYou.Common\FasterThanYou.Common.csproj", "{1C836B97-B64C-4057-A76C-B03DBBF0E75D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Web.Infrastructure", "FasterThanYou.Web.Infrastructure\FasterThanYou.Web.Infrastructure.csproj", "{044A3A27-F5D6-4C3B-8174-F8B0A9B2A790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Web.Infrastructure", "FasterThanYou.Web.Infrastructure\FasterThanYou.Web.Infrastructure.csproj", "{044A3A27-F5D6-4C3B-8174-F8B0A9B2A790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Api.Drivers", "APIs\FasterThanYou.Api.Drivers\FasterThanYou.Api.Drivers.csproj", "{8E501A28-80B5-46B2-B9E4-D27552A48AD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Api.Drivers", "APIs\FasterThanYou.Api.Drivers\FasterThanYou.Api.Drivers.csproj", "{8E501A28-80B5-46B2-B9E4-D27552A48AD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterThanYou.Api.RaceSessions", "FasterThanYou.Api.RaceSessions\FasterThanYou.Api.RaceSessions.csproj", "{A7CB010F-FC68-4D1E-8B83-5BB0DACD1C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterThanYou.Api.RaceMeeting", "FasterThanYou.Api.RaceMeeting\FasterThanYou.Api.RaceMeeting.csproj", "{7CC6F8E6-9B13-406F-BADD-C5DC2FF251AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{8E501A28-80B5-46B2-B9E4-D27552A48AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E501A28-80B5-46B2-B9E4-D27552A48AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E501A28-80B5-46B2-B9E4-D27552A48AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CB010F-FC68-4D1E-8B83-5BB0DACD1C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CB010F-FC68-4D1E-8B83-5BB0DACD1C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CB010F-FC68-4D1E-8B83-5BB0DACD1C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CB010F-FC68-4D1E-8B83-5BB0DACD1C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC6F8E6-9B13-406F-BADD-C5DC2FF251AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC6F8E6-9B13-406F-BADD-C5DC2FF251AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC6F8E6-9B13-406F-BADD-C5DC2FF251AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC6F8E6-9B13-406F-BADD-C5DC2FF251AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +94,8 @@ Global
 		{57B7918E-9495-4716-B963-23A648708F78} = {290894D0-FF62-40EE-B0C2-18BCA6FD5EA1}
 		{044A3A27-F5D6-4C3B-8174-F8B0A9B2A790} = {D0448B81-5EC7-4FEA-A19A-A9088978933E}
 		{8E501A28-80B5-46B2-B9E4-D27552A48AD0} = {D0448B81-5EC7-4FEA-A19A-A9088978933E}
+		{A7CB010F-FC68-4D1E-8B83-5BB0DACD1C08} = {D0448B81-5EC7-4FEA-A19A-A9088978933E}
+		{7CC6F8E6-9B13-406F-BADD-C5DC2FF251AA} = {D0448B81-5EC7-4FEA-A19A-A9088978933E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39436901-5240-422D-ABB3-F95689D82255}

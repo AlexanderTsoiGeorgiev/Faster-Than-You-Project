@@ -10,3 +10,15 @@ C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Da
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data.Models\obj\Debug\net8.0\refint\FasterThanYou.Data.Models.dll
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data.Models\obj\Debug\net8.0\FasterThanYou.Data.Models.pdb
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data.Models\obj\Debug\net8.0\ref\FasterThanYou.Data.Models.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\bin\Debug\net8.0\FasterThanYou.Data.Models.deps.json
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\bin\Debug\net8.0\FasterThanYou.Data.Models.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\bin\Debug\net8.0\FasterThanYou.Data.Models.pdb
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\FasterThanYou.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\FasterThanYou.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\FasterThanYou.Data.Models.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\FasterThanYou.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\FasterThanYou.Data.Models.sourcelink.json
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\FasterThanYou.Data.Models.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\refint\FasterThanYou.Data.Models.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\FasterThanYou.Data.Models.pdb
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Models\obj\Debug\net8.0\ref\FasterThanYou.Data.Models.dll

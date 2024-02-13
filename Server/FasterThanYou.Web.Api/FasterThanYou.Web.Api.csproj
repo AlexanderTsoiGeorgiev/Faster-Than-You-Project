@@ -25,4 +25,8 @@
     <ProjectReference Include="..\FasterThanYou.Services\FasterThanYou.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Utility\" />
+  </ItemGroup>
+
 </Project>

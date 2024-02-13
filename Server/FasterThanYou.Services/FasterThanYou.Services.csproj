@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\FasterThanYou.Common\FasterThanYou.Common.csproj" />
     <ProjectReference Include="..\FasterThanYou.Data.Common\FasterThanYou.Data.Common.csproj" />
     <ProjectReference Include="..\FasterThanYou.Data\FasterThanYou.Data.csproj" />

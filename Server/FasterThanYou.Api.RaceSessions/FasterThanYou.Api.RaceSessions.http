@@ -1,0 +1,6 @@
+@FasterThanYou.Api.RaceSessions_HostAddress = http://localhost:5293
+
+GET {{FasterThanYou.Api.RaceSessions_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

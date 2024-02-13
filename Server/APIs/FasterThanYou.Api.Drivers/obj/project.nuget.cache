@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k2Gm//HblKz3/1XGa6oLB736o3Sl33OQ3oEZwOz3/pLK8puLv7OuIKG3a9rep06xaI2TZTDoPOwjKZIqp6zpsg==",
+  "dgSpecHash": "QtbkeEmFMNLwKG3lAo/094jIYeuvbhfIzMhxj02BmZy5wdzMUtpf9MZbjJ/qurbAdWeTmetOZoT0AfGgvD8ccg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\APIs\\FasterThanYou.Api.Drivers\\FasterThanYou.Api.Drivers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

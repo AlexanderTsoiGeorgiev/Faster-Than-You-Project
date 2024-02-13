@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FasterThanYou.Api.RaceSessions.props" />
+</Project>

@@ -10,3 +10,15 @@ C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Da
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data.Configuration\obj\Debug\net8.0\refint\FasterThanYou.Data.Configuration.dll
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data.Configuration\obj\Debug\net8.0\FasterThanYou.Data.Configuration.pdb
 C:\Users\Alexander\Desktop\Faster Than You\Server\FasterThanYou\FasterThanYou.Data.Configuration\obj\Debug\net8.0\ref\FasterThanYou.Data.Configuration.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\bin\Debug\net8.0\FasterThanYou.Data.Configuration.deps.json
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\bin\Debug\net8.0\FasterThanYou.Data.Configuration.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\bin\Debug\net8.0\FasterThanYou.Data.Configuration.pdb
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\FasterThanYou.Data.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\FasterThanYou.Data.Configuration.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\FasterThanYou.Data.Configuration.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\FasterThanYou.Data.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\FasterThanYou.Data.Configuration.sourcelink.json
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\FasterThanYou.Data.Configuration.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\refint\FasterThanYou.Data.Configuration.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\FasterThanYou.Data.Configuration.pdb
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\FasterThanYou.Data.Configuration\obj\Debug\net8.0\ref\FasterThanYou.Data.Configuration.dll

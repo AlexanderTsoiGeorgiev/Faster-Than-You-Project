@@ -31,3 +31,4 @@ C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\APIs\FasterThanYou.Api
 C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\APIs\FasterThanYou.Api.Drivers\obj\Debug\net8.0\FasterThanYou.Api.Drivers.pdb
 C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\APIs\FasterThanYou.Api.Drivers\obj\Debug\net8.0\FasterThanYou.Api.Drivers.genruntimeconfig.cache
 C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\APIs\FasterThanYou.Api.Drivers\obj\Debug\net8.0\ref\FasterThanYou.Api.Drivers.dll
+C:\Users\Alexander\Desktop\Faster-Than-You-Project\Server\APIs\FasterThanYou.Api.Drivers\bin\Debug\net8.0\Newtonsoft.Json.dll

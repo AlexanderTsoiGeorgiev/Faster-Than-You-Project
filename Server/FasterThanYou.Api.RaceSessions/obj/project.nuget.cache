@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "yEE0nmbaJ2zf6TU5Hw5IuKGMZqH3CFdT2hpoczju+KOcfMFArcS5/5ijo6Ur3jFJI+bYrz/rHE+rJoszyp+F2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\Desktop\\Faster-Than-You-Project\\Server\\FasterThanYou.Api.RaceSessions\\FasterThanYou.Api.RaceSessions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
