@@ -14,6 +14,7 @@
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Team>().HasData(new Team{Id = Guid.NewGuid(), Name = "Sample Name", TeamPrinciple = "Principle"  });
             base.OnModelCreating(modelBuilder);
         }
     }

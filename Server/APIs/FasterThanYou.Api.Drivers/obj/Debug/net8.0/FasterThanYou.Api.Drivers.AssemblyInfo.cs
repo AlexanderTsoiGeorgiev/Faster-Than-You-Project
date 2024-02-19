@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FasterThanYou.Api.Drivers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee5c660ceffe499736c415e816168b7c6a855535")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21ff79690c681e78ddfb131fd9ffbd76a2cd42ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("FasterThanYou.Api.Drivers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FasterThanYou.Api.Drivers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
