@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("82a12413-d753-4d16-94e3-8c122eb5d489")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FasterThanYou.Api.Drivers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee5c660ceffe499736c415e816168b7c6a855535")]
 [assembly: System.Reflection.AssemblyProductAttribute("FasterThanYou.Api.Drivers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FasterThanYou.Api.Drivers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

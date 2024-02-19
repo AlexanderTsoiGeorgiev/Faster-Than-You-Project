@@ -12,8 +12,10 @@ namespace FasterThanYou.Api.Drivers
             // Add services to the container.
 
             //change to developer secret
-            string? connectionString = builder.Configuration.GetConnectionString("DefaultConnection" ?? throw new InvalidOperationException());
-            builder.Services.AddDbContext<DriversDbContext>(options => options.UseSqlServer(connectionString));
+            string? connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"]
+                                                               ?? throw new ArgumentNullException();
+
+            builder.Services.AddDbContext<DriverServiceDbContext>(options => options.UseSqlServer(connectionString));
 
             builder.Services.AddControllers();
 

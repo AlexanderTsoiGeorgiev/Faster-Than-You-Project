@@ -1,11 +1,19 @@
-
 namespace FasterThanYou.Api.Cars
 {
+    using Microsoft.EntityFrameworkCore;
+
+    using FasterThanYou.Api.Cars.Data;
+
     public class Program
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            string? connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"]
+                                                               ?? throw new ArgumentNullException();
+
+            builder.Services.AddDbContext<CarServiceDbContext>(options => options.UseSqlServer(connectionString));
 
             // Add services to the container.
 

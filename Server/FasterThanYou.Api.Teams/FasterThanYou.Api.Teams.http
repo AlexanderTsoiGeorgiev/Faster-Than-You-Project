@@ -1,0 +1,6 @@
+@FasterThanYou.Api.Teams_HostAddress = http://localhost:5147
+
+GET {{FasterThanYou.Api.Teams_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

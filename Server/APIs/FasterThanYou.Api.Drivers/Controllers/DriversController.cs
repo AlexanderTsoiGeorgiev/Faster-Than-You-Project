@@ -17,8 +17,6 @@
             this.httpClientFactory = httpClientFactory;
         }
 
-
-
         [HttpGet]
         public async Task<ResponseDTO> Get()
         {

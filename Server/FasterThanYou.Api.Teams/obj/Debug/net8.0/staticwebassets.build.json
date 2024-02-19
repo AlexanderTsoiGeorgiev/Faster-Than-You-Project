@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dKXHb80HWfkMCjAiwA6QJSnM1YW0v7tWPVX+n505+oc=",
+  "Source": "FasterThanYou.Api.Teams",
+  "BasePath": "_content/FasterThanYou.Api.Teams",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
