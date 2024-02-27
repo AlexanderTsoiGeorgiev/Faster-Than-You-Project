@@ -1,10 +1,10 @@
 class ResponseDTO {
-    Result?: object[]
-    IsSuccess!: boolean
-    Message: string
+    result?: object[]
+    isSuccess!: boolean
+    message: string
 
     constructor() {
-        this.Message = "";
+        this.message = "";
     }
 }
 

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FasterThanYou.Api.Teams")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21ff79690c681e78ddfb131fd9ffbd76a2cd42ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ded4460e81270a6b557a46ebaa771dbfdc13b908")]
 [assembly: System.Reflection.AssemblyProductAttribute("FasterThanYou.Api.Teams")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FasterThanYou.Api.Teams")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

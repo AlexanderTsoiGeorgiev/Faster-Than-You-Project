@@ -40,7 +40,7 @@ import {
 //console.log(Races);
 
 const raceMeetingsResponse = await getRaceMeetings();
-const raceMeetings: RaceMeetingDTO[] = raceMeetingsResponse.Result!.map((rm: any) => ({
+const raceMeetings: RaceMeetingDTO[] = raceMeetingsResponse.result!.map((rm: any) => ({
     circuitKey: rm.circuit_key,
     circuitShortName: rm.circuit_short_name,
     countryCode: rm.country_code,
@@ -56,7 +56,7 @@ const raceMeetings: RaceMeetingDTO[] = raceMeetingsResponse.Result!.map((rm: any
 }));
 
 const raceSessionsResponse = await getRaceSessions();
-const raceSessions: RaceSessionDTO[] = raceSessionsResponse.Result!.map((rs: any) => ({
+const raceSessions: RaceSessionDTO[] = raceSessionsResponse.result!.map((rs: any) => ({
     location: rs.location,
     countryKey: rs.country_key,
     countryCode: rs.country_code,
@@ -146,9 +146,9 @@ async function getRaceSessions() {
 
         
         const result: ResponseDTO = {
-            Result: JSON.parse(data.result),
-            Message: data.message,
-            IsSuccess: data.isSuccess
+            result: JSON.parse(data.result),
+            message: data.message,
+            isSuccess: data.isSuccess
         }
     
         return result;
@@ -160,9 +160,9 @@ async function getRaceMeetings() {
     const data = await fetchResponse.json();
 
     const result: ResponseDTO = {
-        Result: JSON.parse(data.result),
-        Message: data.message,
-        IsSuccess: data.isSuccess
+        result: JSON.parse(data.result),
+        message: data.message,
+        isSuccess: data.isSuccess
     }
     
     return result;

@@ -7,8 +7,8 @@
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
 
-    [Route("[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class TeamController : ControllerBase
     {
         private readonly IHttpClientFactory httpClientFactory;
@@ -26,7 +26,8 @@
 
         [HttpGet]
         [Route("All")]
-        public async Task<ResponseDTO> GetAll()
+        [ProducesResponseType<ResponseDTO>(StatusCodes.Status200OK)]
+        public async Task<IActionResult> GetAll()
         {
             try
             {
@@ -39,7 +40,28 @@
                 response.IsSuccess = false;
             }
 
-            return response;
+            return Ok(response);
+        }
+
+        [HttpGet]
+        [Route("ById/{id:guid}")]
+        [ProducesResponseType<ResponseDTO>(StatusCodes.Status200OK)]
+        [ProducesResponseType<ResponseDTO>(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            try
+            {
+                Team? team = await dbContext.Teams.FindAsync(id) ?? throw new Exception();
+
+                response.Result = team;
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+                response.IsSuccess = false;
+            }
+
+            return response.IsSuccess ? Ok(response) : BadRequest(response);
         }
     }
 }

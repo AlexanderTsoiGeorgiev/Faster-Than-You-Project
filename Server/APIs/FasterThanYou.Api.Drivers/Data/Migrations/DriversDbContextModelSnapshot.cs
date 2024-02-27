@@ -79,6 +79,22 @@ namespace FasterThanYou.Api.Drivers.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Drivers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("fe2a45ea-4426-46d4-9fc5-ca7ef4ed5754"),
+                            BroadcastName = "M VERSTAPPEN",
+                            CountryCode = "NED",
+                            DriverNumber = 1,
+                            FirstName = "Max",
+                            FullName = "Max VERSTAPPEN",
+                            HeadshotURL = "https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/1col/image.png",
+                            LastName = "Verstappen",
+                            NameAcronym = "VER",
+                            TeamColor = "3671C6",
+                            TeamName = "Red Bull Racing"
+                        });
                 });
 #pragma warning restore 612, 618
         }

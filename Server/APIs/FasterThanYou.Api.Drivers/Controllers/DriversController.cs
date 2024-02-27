@@ -1,7 +1,9 @@
 ﻿namespace FasterThanYou.Api.Drivers
 {
+    using FasterThanYou.Api.Drivers.Data;
+    using FasterThanYou.Api.Drivers.Data.Models;
     using Microsoft.AspNetCore.Mvc;
-
+    using Microsoft.EntityFrameworkCore;
     using Newtonsoft.Json;
 
     [Route("[controller]")]
@@ -9,18 +11,25 @@
     public class DriversController : ControllerBase
     {
         private ResponseDTO response;
-        private readonly IHttpClientFactory httpClientFactory;
+        //private readonly IHttpClientFactory httpClientFactory;
+        private readonly DriverServiceDbContext dbContext;
 
-        public DriversController(IHttpClientFactory httpClientFactory)
+        //IHttpClientFactory httpClientFactory
+
+        public DriversController(
+            DriverServiceDbContext dbContext)
         {
             response = new ResponseDTO();
-            this.httpClientFactory = httpClientFactory;
+            this.dbContext = dbContext;
+            //this.httpClientFactory = httpClientFactory;
         }
 
         [HttpGet]
-        public async Task<ResponseDTO> Get()
+        [Route("All")]
+        [ProducesResponseType<ResponseDTO>(StatusCodes.Status200OK)]
+        public async Task<IActionResult> GetAll()
         {
-            using HttpClient httpClient = httpClientFactory.CreateClient();
+            /*using HttpClient httpClient = httpClientFactory.CreateClient();
             HttpRequestMessage message = new HttpRequestMessage();
             message.RequestUri = new Uri("https://api.openf1.org/v1/drivers?driver_number=1&session_key=9158");
             message.Method = HttpMethod.Get;
@@ -39,23 +48,38 @@
                 response.Message = ex.Message;
                 response.IsSuccess = false;
             }
-            return response;
-        }
-
-        [HttpGet]
-        [Route("{id:int}")]
-        public ResponseDTO Get(int id)
-        {
+            return response; */
             try
             {
-                return response;
+                Driver[] drivers = await dbContext.Drivers.ToArrayAsync();
+                response.Result = drivers;
             }
             catch (Exception ex)
             {
                 response.Message = ex.Message;
+                response.IsSuccess = false;
             }
 
-            return response;
+            return Ok(response);
+        }
+
+        [HttpGet]
+        [Route("ById/{id:guid}")]
+        public async Task<IActionResult> Get(Guid id)
+        {
+            try
+            {
+                Driver driver = await dbContext.Drivers.FindAsync(id) ?? throw new ArgumentNullException();
+                response.Result = driver;
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+                response.IsSuccess = false;
+                return BadRequest(response);
+            }
+
+            return Ok(response);
         }
 
     }

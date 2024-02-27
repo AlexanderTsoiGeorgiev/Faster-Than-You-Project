@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FasterThanYou.Api.Cars")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee5c660ceffe499736c415e816168b7c6a855535")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ded4460e81270a6b557a46ebaa771dbfdc13b908")]
 [assembly: System.Reflection.AssemblyProductAttribute("FasterThanYou.Api.Cars")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FasterThanYou.Api.Cars")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

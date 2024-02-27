@@ -8,16 +8,29 @@ import {
   } from "@/components/ui/navigation-menu"
 import { Link } from "react-router-dom"
 
+import ResponseDTO from "../../DTOs/ResponseDTO";
+// import DriverDTO from "../../DTOs/Driver/DriverDTO";
+import DriverNavMenuDTO from "../../DTOs/Driver/DriverNavMenuDTO";
+
+const allDriversResponse = await GetAllDrivers();
+const drivers: DriverNavMenuDTO[] = allDriversResponse.result!.map((d: any) => ({
+        fullName: d.fullName, 
+        teamColor: d.teamColor
+    }));
+
+console.log(drivers);
+
+
 export default function MyNavMenu() {
   return (
     <>
         <NavigationMenu>
              <NavigationMenuList> 
-                <NavigationMenuLink>
+                {/* <NavigationMenuLink> */}
                         <Link to="home" className="px-4 py-2">
                             Home
                         </Link>
-                </NavigationMenuLink>
+                {/* </NavigationMenuLink> */}
             </NavigationMenuList> 
         </NavigationMenu>
 
@@ -73,4 +86,15 @@ export default function MyNavMenu() {
         </NavigationMenu>
     </>
   )
+}
+
+
+async function GetAllDrivers() {
+    const promise = await fetch("https://localhost:7001/Drivers/All");
+    const data: ResponseDTO = await promise.json();
+
+    console.log(data);
+    console.log(data.result);
+
+    return data;
 }
