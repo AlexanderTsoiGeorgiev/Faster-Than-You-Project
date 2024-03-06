@@ -83,7 +83,7 @@ namespace FasterThanYou.Api.Drivers.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("fe2a45ea-4426-46d4-9fc5-ca7ef4ed5754"),
+                            Id = new Guid("930087b2-3c90-4f82-a2ab-7fd4db440f65"),
                             BroadcastName = "M VERSTAPPEN",
                             CountryCode = "NED",
                             DriverNumber = 1,
@@ -94,6 +94,104 @@ namespace FasterThanYou.Api.Drivers.Migrations
                             NameAcronym = "VER",
                             TeamColor = "3671C6",
                             TeamName = "Red Bull Racing"
+                        },
+                        new
+                        {
+                            Id = new Guid("25b73cf2-899b-4f59-81ee-bf352be45b7e"),
+                            BroadcastName = "S PEREZ",
+                            CountryCode = "MEX",
+                            DriverNumber = 11,
+                            FirstName = "Sergio",
+                            FullName = "Sergio PEREZ",
+                            HeadshotURL = "https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/1col/image.png",
+                            LastName = "Perez",
+                            NameAcronym = "PER",
+                            TeamColor = "3671C6",
+                            TeamName = "Red Bull Racing"
+                        },
+                        new
+                        {
+                            Id = new Guid("17afd016-bf4b-4354-b72c-4b3881c373be"),
+                            BroadcastName = "G RUSSELL",
+                            CountryCode = "GBR",
+                            DriverNumber = 63,
+                            FirstName = "George",
+                            FullName = "George RUSSELL",
+                            HeadshotURL = "https://www.formula1.com/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/1col/image.png",
+                            LastName = "Russell",
+                            NameAcronym = "RUS",
+                            TeamColor = "6CD3BF",
+                            TeamName = "Mercedes"
+                        },
+                        new
+                        {
+                            Id = new Guid("bcee83ab-dd03-44fd-b46b-30869256a058"),
+                            BroadcastName = "L HAMILTON",
+                            CountryCode = "GBR",
+                            DriverNumber = 44,
+                            FirstName = "Lewis",
+                            FullName = "Lewis HAMILTON",
+                            HeadshotURL = "https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/1col/image.png",
+                            LastName = "Hamilton",
+                            NameAcronym = "HAM",
+                            TeamColor = "6CD3BF",
+                            TeamName = "Mercedes"
+                        },
+                        new
+                        {
+                            Id = new Guid("1dadd12f-0a98-413c-beb8-3e5fb5df6018"),
+                            BroadcastName = "C LECLERC",
+                            CountryCode = "MON",
+                            DriverNumber = 16,
+                            FirstName = "Charles",
+                            FullName = "Charles LECLERC",
+                            HeadshotURL = "https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/1col/image.png",
+                            LastName = "Leclerc",
+                            NameAcronym = "LEC",
+                            TeamColor = "F91536",
+                            TeamName = "Ferrari"
+                        },
+                        new
+                        {
+                            Id = new Guid("1c53f800-6037-439f-9e7d-358a40a5d92d"),
+                            BroadcastName = "C SAINZ",
+                            CountryCode = "ESP",
+                            DriverNumber = 55,
+                            FirstName = "Carlos",
+                            FullName = "Carlos SAINZ",
+                            HeadshotURL = "https://www.formula1.com/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/1col/image.png",
+                            LastName = "Sainz",
+                            NameAcronym = "SAI",
+                            TeamColor = "F91536",
+                            TeamName = "Ferrari"
+                        },
+                        new
+                        {
+                            Id = new Guid("06fd52cc-bcae-4f73-a363-68c0674de1bb"),
+                            BroadcastName = "O PIASTRI",
+                            CountryCode = "AUS",
+                            DriverNumber = 81,
+                            FirstName = "Oscar",
+                            FullName = "Oscar PIASTRI",
+                            HeadshotURL = "https://www.formula1.com/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png.transform/1col/image.png",
+                            LastName = "Piastri",
+                            NameAcronym = "PIA",
+                            TeamColor = "F58020",
+                            TeamName = "McLaren"
+                        },
+                        new
+                        {
+                            Id = new Guid("22f84a1e-dc2f-4d53-9c78-5e5a6bbdbfc5"),
+                            BroadcastName = "L NORRIS",
+                            CountryCode = "GBR",
+                            DriverNumber = 4,
+                            FirstName = "Lando",
+                            FullName = "Lando NORRIS",
+                            HeadshotURL = "https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/1col/image.png",
+                            LastName = "Norris",
+                            NameAcronym = "NOR",
+                            TeamColor = "F58020",
+                            TeamName = "McLaren"
                         });
                 });
 #pragma warning restore 612, 618

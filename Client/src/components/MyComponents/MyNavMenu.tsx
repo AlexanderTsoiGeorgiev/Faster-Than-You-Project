@@ -14,11 +14,12 @@ import DriverNavMenuDTO from "../../DTOs/Driver/DriverNavMenuDTO";
 
 const allDriversResponse = await GetAllDrivers();
 const drivers: DriverNavMenuDTO[] = allDriversResponse.result!.map((d: any) => ({
+        id: d.id,
         fullName: d.fullName, 
         teamColor: d.teamColor
     }));
 
-console.log(drivers);
+console.log("Drivers", drivers);
 
 
 export default function MyNavMenu() {
@@ -26,7 +27,7 @@ export default function MyNavMenu() {
     <>
         <NavigationMenu>
              <NavigationMenuList> 
-                {/* <NavigationMenuLink> */}
+                {/* <NavigationMenuLink> */}    
                         <Link to="home" className="px-4 py-2">
                             Home
                         </Link>
@@ -40,12 +41,16 @@ export default function MyNavMenu() {
                     <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">Drivers</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <ul className=" w-[800px] grid grid-cols-4 gap-4 list-none">
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, hic.</li>
+                                {
+                                    drivers.map(d => 
+                                        <li key={d.id}>
+                                            <div className={`w-5 h-5 bg-[#${d.teamColor}]`}></div>
+                                            <Link to={`/drivers/${d.fullName}`}>
+                                                {d.fullName}
+                                            </Link>
+                                        </li>
+                                    )
+                                }
                             </ul>
                         </NavigationMenuContent>
                 </NavigationMenuItem>

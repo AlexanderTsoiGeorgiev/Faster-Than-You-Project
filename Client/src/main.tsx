@@ -12,6 +12,8 @@ import NotFound from './components/Error/NotFound.tsx';
 //pages
 import Index from "./pages/Index.tsx";
 import Home from './pages/Home.tsx';
+import Driver from './pages/Driver.tsx';
+import Drivers from './pages/Drivers.tsx';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <h1>About </h1>
+      },
+      {
+        path: "drivers",
+        element: <Drivers />
+      },
+      {
+        path: "driver/:driverId",
+        element: <Driver />
       }
     ]
   },
