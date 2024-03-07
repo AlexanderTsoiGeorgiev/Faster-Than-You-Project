@@ -1,5 +1,6 @@
 import AllDriversDTO from "@/DTOs/Driver/AllDriversDTO";
 import ResponseDTO from "@/DTOs/ResponseDTO"
+import DriverCard from "@/components/Card/DriverCard";
 import styles from "@/assets/styles";
 
 const allDriversResponse = await getAllDrivers();
@@ -18,7 +19,15 @@ export default function Drivers() {
     <>
         <div className={`flex flex-col ${styles.pageWidth} ${styles.padeMargin} m-auto text-center mt-5`}>
           <div className="bg-red-700">All Drivers</div>
-          <div className="bg-blue-700">Cards</div>
+          <div className="bg-blue-700">
+            Cards
+            <div className="grid grid-cols-4 gap-4">
+              <DriverCard></DriverCard>
+              <DriverCard></DriverCard>
+              <DriverCard></DriverCard>
+              <DriverCard></DriverCard>
+            </div>
+          </div>
           <div className="bg-yellow-700">CTA IDK</div>
         </div>
     </>
