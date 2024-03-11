@@ -14,18 +14,22 @@ const allDrivers: AllDriversDTO[] = allDriversResponse.result!.map((d: any) => (
       countryCode: d.countryCode
 }));
 
+console.log("ALL DRIVERS", allDrivers);
+
+
 export default function Drivers() {
   return (
     <>
         <div className={`flex flex-col ${styles.pageWidth} ${styles.padeMargin} m-auto text-center mt-5`}>
-          <div className="bg-red-700">All Drivers</div>
+          <div className="border-primary border-t-[10px] border-r-[10px] rounded-tr-[2em] mb-4 min-h-20 text-start pt-4 pr-4 ">All F1 Drivers 2023</div>
           <div className="bg-blue-700">
             Cards
-            <div className="grid grid-cols-4 gap-4">
-              <DriverCard></DriverCard>
-              <DriverCard></DriverCard>
-              <DriverCard></DriverCard>
-              <DriverCard></DriverCard>
+            <div className="grid grid-cols-4 gap-4 p-2">
+              {allDrivers.map((d:AllDriversDTO) => (
+                <div key={d.id}>
+                  <DriverCard driver={d}></DriverCard>
+                </div>
+                ))}
             </div>
           </div>
           <div className="bg-yellow-700">CTA IDK</div>

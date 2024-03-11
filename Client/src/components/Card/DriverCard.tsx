@@ -1,16 +1,17 @@
-export default function DriverCard() {
+import AllDriversDTO from "@/DTOs/Driver/AllDriversDTO";
+
+export default function DriverCard(  {driver} : { driver: AllDriversDTO }) {
   return (
-    <div className="flex flex-col bg-card rounded-lg">
+    <div className="flex flex-col bg-card rounded-lg px-2 py-1">
         <div>Driver</div>
         <div className="flex flex-row justify-between">
             <div>
-                <span>Name</span>
-                <span>Second Name</span>
+                <span>{driver.fullName}</span>
             </div>
-            <span>Country</span>
+            <span>{driver.countryCode}</span>
         </div>
         <div className="flex flex-col">
-            <span>Team Name</span>
+            <span>{driver.teamName}</span>
             <div>DRIVER IMAGE</div>
         </div>
         
