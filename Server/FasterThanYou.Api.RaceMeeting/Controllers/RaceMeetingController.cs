@@ -25,6 +25,8 @@
             message.RequestUri = new Uri("https://api.openf1.org/v1/meetings?year=2023");
             message.Method = HttpMethod.Get;
 
+
+
             HttpResponseMessage apiResponse = new HttpResponseMessage();
             try
             {
@@ -39,6 +41,7 @@
                 response.Message = ex.Message;
                 response.IsSuccess = false;
             }
+
             return response;
         }
     }
