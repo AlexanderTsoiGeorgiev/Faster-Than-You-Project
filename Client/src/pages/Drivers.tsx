@@ -1,18 +1,15 @@
 import { useEffect, useState } from "react";
 
-import AllDriversDTO from "@/DTOs/Driver/AllDriversDTO";
-import ResponseDTO from "@/DTOs/ResponseDTO";
 import DriverCard from "@/components/Card/DriverCard";
 import styles from "@/assets/styles";
+
+import ResponseDTO from "@/DTOs/ResponseDTO";
+import AllDriversDTO from "@/DTOs/Driver/AllDriversDTO";
+
 import useAxios from "@/hooks/axios/useAxios";
 import Ports from "@/hooks/axios/ports";
 
-// const allDrivers: AllDriversDTO[] = [];
-
-// console.log("ALL DRIVERS", allDrivers);
-
 export default function Drivers() {
-    console.log("loading components");
     const [drivers, setDrivers] = useState<AllDriversDTO[]>([]);
 
     const axios = useAxios(Ports.Drivers);
@@ -29,13 +26,11 @@ export default function Drivers() {
                 }
             } catch (error) {
                 console.log(error);
-            } finally {
             }
         };
         getAllDrivers();
     }, []);
 
-    console.log(drivers);
     return (
         <>
             <div

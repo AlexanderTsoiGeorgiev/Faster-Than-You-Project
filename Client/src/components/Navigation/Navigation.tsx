@@ -12,11 +12,6 @@ export default function Navigation() {
             </div> */}
             <section className="flex gap-8">
                 <MyNavMenu></MyNavMenu>
-                {/* <NavigationMenuDemo></NavigationMenuDemo> */}
-                {/* <MyDropdown></MyDropdown> */}
-                {/* <MyDropdown></MyDropdown>
-                <MyDropdown></MyDropdown>
-                <MyNavMenu></MyNavMenu> */}
             </section>
             <section className="flex items-center justify-center">
                 <p>Log In</p>
