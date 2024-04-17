@@ -21,7 +21,7 @@ const drivers: DriverNavMenuDTO[] = allDriversResponse.result!.map(
   })
 );
 
-console.log("Drivers", drivers);
+// console.log("Drivers", drivers);
 
 export default function MyNavMenu() {
   return (
@@ -118,8 +118,8 @@ async function GetAllDrivers() {
   const promise = await fetch("https://localhost:7001/Drivers/All");
   const data: ResponseDTO = await promise.json();
 
-  console.log(data);
-  console.log(data.result);
+  // console.log(data);
+  // console.log(data.result);
 
   return data;
 }

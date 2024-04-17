@@ -73,8 +73,8 @@ const raceSessions: RaceSessionDTO[] = raceSessionsResponse.result!.map((rs: any
     year: rs.year
 }));
 
-console.log(raceMeetings);
-console.log(raceSessions);
+// console.log(raceMeetings);
+// console.log(raceSessions);
 
 
 

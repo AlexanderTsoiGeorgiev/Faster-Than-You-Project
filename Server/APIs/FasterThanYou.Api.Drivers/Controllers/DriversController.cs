@@ -2,6 +2,7 @@
 {
     using FasterThanYou.Api.Drivers.Data;
     using FasterThanYou.Api.Drivers.Data.Models;
+    using FasterThanYou.Api.Drivers.DTOs;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.EntityFrameworkCore;
 
@@ -9,7 +10,7 @@
     [ApiController]
     public class DriversController : ControllerBase
     {
-        private ResponseDTO response;
+        //private ResponseDTO response;
         //private readonly IHttpClientFactory httpClientFactory;
         private readonly DriverServiceDbContext dbContext;
 
@@ -18,16 +19,17 @@
         public DriversController(
             DriverServiceDbContext dbContext)
         {
-            response = new ResponseDTO();
+            //response = new ResponseDTO();
             this.dbContext = dbContext;
             //this.httpClientFactory = httpClientFactory;
         }
 
         [HttpGet]
         [Route("All")]
-        [ProducesResponseType<ResponseDTO>(StatusCodes.Status200OK)]
+        [ProducesResponseType<ResponseDTO<AllDriversDTO>>(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetAll()
         {
+            ResponseDTO<AllDriversDTO[]> response = new ResponseDTO<AllDriversDTO[]>();
             /*using HttpClient httpClient = httpClientFactory.CreateClient();
             HttpRequestMessage message = new HttpRequestMessage();
             message.RequestUri = new Uri("https://api.openf1.org/v1/drivers?driver_number=1&session_key=9158");
@@ -50,13 +52,26 @@
             return response; */
             try
             {
-                Driver[] drivers = await dbContext.Drivers.ToArrayAsync();
+                AllDriversDTO[] drivers = await dbContext.Drivers
+                    .AsNoTracking()
+                    .Select(d => new AllDriversDTO
+                    {
+                        Id = d.Id,
+                        DriverNumber = d.DriverNumber,
+                        FullName = d.FullName,
+                        TeamName = d.TeamName,
+                        TeamColor = d.TeamColor,
+                        HeadshorURL = d.HeadshotURL,
+                        CountryCode = d.CountryCode
+                    })
+                    .ToArrayAsync();
                 response.Result = drivers;
             }
             catch (Exception ex)
             {
                 response.Message = ex.Message;
                 response.IsSuccess = false;
+                return BadRequest(response);
             }
 
             return Ok(response);
@@ -66,6 +81,7 @@
         [Route("ById/{id:guid}")]
         public async Task<IActionResult> Get(Guid id)
         {
+            ResponseDTO<Driver> response = new ResponseDTO<Driver>();
             try
             {
                 Driver driver = await dbContext.Drivers.FindAsync(id) ?? throw new ArgumentNullException();
