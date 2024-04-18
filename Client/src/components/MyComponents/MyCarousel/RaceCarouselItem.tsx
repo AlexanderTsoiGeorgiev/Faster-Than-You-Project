@@ -10,7 +10,7 @@ const [firstSession, secondSession, thirdSession, fourthSession, fifthSession] =
 
   return (
     <>
-		<article className="flex flex-col h-full bg-secondary-lighter-color p-4 w-1/2">
+		<article className="flex flex-col h-full bg-primary-200 p-4 w-1/2">
 			<header className="flex flex-col items-center justify-center">
 				<div className="rounded-md overflow-hidden">
 					<img src={image} alt={alt} />

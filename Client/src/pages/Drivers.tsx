@@ -36,11 +36,11 @@ export default function Drivers() {
             <div
                 className={`flex flex-col ${styles.pageWidth} ${styles.padeMargin} m-auto text-center mt-5`}
             >
-                <div className="border-primary border-t-[10px] border-r-[10px] rounded-tr-[2em] mb-4 min-h-20 text-start pt-4 pr-4 ">
+                <div className="border-primary-500 border-t-[10px] border-r-[10px] rounded-tr-[2em] mb-4 min-h-20 text-start pt-4 pr-4 font-heading font-extrabold text-4xl">
                     All F1 Drivers 2023
                 </div>
                 <div className="bg-blue-700">
-                    Cards
+                    Card
                     <div className="grid grid-cols-4 gap-4 p-2">
                         {drivers.map((d) => (
                             <div key={d.id}>

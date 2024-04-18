@@ -16,8 +16,6 @@ import DriverNavMenuDTO from "../../DTOs/Driver/DriverNavMenuDTO";
 import useAxios from "@/hooks/axios/useAxios";
 import Ports from "@/hooks/axios/ports";
 
-
-
 export default function MyNavMenu() {
     const axios = useAxios(Ports.Drivers);
     const [drivers, setDrivers] = useState<DriverNavMenuDTO[]>([]);
@@ -47,7 +45,7 @@ export default function MyNavMenu() {
             <NavigationMenu>
                 <NavigationMenuList>
                     {/* <NavigationMenuLink> */}
-                    <Link to="home" className="px-4 py-2">
+                    <Link to="home" className="px-4 py-2 font-heading">
                         Home
                     </Link>
                     {/* </NavigationMenuLink> */}
@@ -56,8 +54,8 @@ export default function MyNavMenu() {
 
             <NavigationMenu>
                 <NavigationMenuList>
-                    <NavigationMenuItem className="!bg-primary">
-                        <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">
+                    <NavigationMenuItem>
+                        <NavigationMenuTrigger className="!bg-primary-500 hover:!text-background-50 hover:!bg-accent-300 focus:!text-background-50 font-heading text-base">
                             Drivers
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
@@ -75,8 +73,8 @@ export default function MyNavMenu() {
                             </ul>
                         </NavigationMenuContent>
                     </NavigationMenuItem>
-                    <NavigationMenuItem className="!bg-primary">
-                        <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">
+                    <NavigationMenuItem>
+                        <NavigationMenuTrigger className="!bg-primary-500 hover:!text-background-50 hover:!bg-accent-300 focus:!text-background-50 font-heading text-base">
                             Teams
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
@@ -108,8 +106,8 @@ export default function MyNavMenu() {
                             </ul>
                         </NavigationMenuContent>
                     </NavigationMenuItem>
-                    <NavigationMenuItem className="!bg-primary">
-                        <NavigationMenuTrigger className="!bg-primary hover:!text-foreground hover:!bg-accent focus:!text-background">
+                    <NavigationMenuItem>
+                        <NavigationMenuTrigger className="!bg-primary-500 hover:!text-background-50 hover:!bg-accent-300 focus:!text-background-50 font-heading text-base">
                             Tracks
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
@@ -123,12 +121,12 @@ export default function MyNavMenu() {
                         </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link to="shop" className="px-4 py-2">
+                        <Link to="shop" className="px-4 py-2 font-heading">
                             Shop
                         </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link to="tickets" className="px-4 py-2">
+                        <Link to="tickets" className="px-4 py-2 font-heading">
                             Tickets
                         </Link>
                     </NavigationMenuItem>
