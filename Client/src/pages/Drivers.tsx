@@ -41,11 +41,9 @@ export default function Drivers() {
                 </div>
                 <div className="bg-blue-700">
                     Card
-                    <div className="grid grid-cols-4 gap-4 p-2">
+                    <div className="flex flex-wrap">
                         {drivers.map((d) => (
-                            <div key={d.id}>
-                                <DriverCard driver={d}></DriverCard>
-                            </div>
+                            <DriverCard key={d.id} driver={d}></DriverCard>
                         ))}
                     </div>
                 </div>
